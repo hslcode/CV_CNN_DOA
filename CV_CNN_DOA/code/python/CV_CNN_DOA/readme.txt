@@ -1,0 +1,1 @@
+This is Python code for CV_CNN model, including training and testing code.
