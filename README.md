@@ -3,7 +3,7 @@ A novel direction-of-arrival (DOA) estimation method based on deep complex-value
 
 This is the code for IEEE ICICSP 2023 paper : "Robust DOA Estimation Using Deep ComplexValued Convolutional Networks with Sparse Prior".
 
-notice: We will clean up and update the code in the near future!(Before October 8)
+notice: We will clean up and update the code in the near future!(Before October 8th)
 ----------------------------------------------------------------------------------------------------------
 ├─code
 │  ├─matlab
