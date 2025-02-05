@@ -127,4 +127,4 @@ xlim([20 1000])
 grid on;
 
 % Save the results 
-save(fullfile(save_path,'EX2_Result_MUSIC_RMUSIC_ESPRIT_CRB_1Ktest_16ULA_K2_min10p3_min7p6_0dB_Snapshots_20to1000.mat'),'T_vec','RMSE_sam','RMSE_sam_rm','RMSE_sam_esp','CRB_uncr');
+save(fullfile(save_path,'EX3_Result_MUSIC_RMUSIC_ESPRIT_CRB_1Ktest_16ULA_K2_min10p3_min7p6_0dB_Snapshots_20to1000.mat'),'T_vec','RMSE_sam','RMSE_sam_rm','RMSE_sam_esp','CRB_uncr');
