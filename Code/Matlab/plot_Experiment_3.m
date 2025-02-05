@@ -11,7 +11,7 @@ SNR = 0;
 % Load the results
 % Load the MUSIC,R-MUSIC, CRLB results
 save_path = '../../Result/data/EX3';
-File = fullfile(save_path,'EX2_Result_MUSIC_RMUSIC_ESPRIT_CRB_1Ktest_16ULA_K2_min10p3_min7p6_0dB_Snapshots_20to1000.mat');
+File = fullfile(save_path,'EX3_Result_MUSIC_RMUSIC_ESPRIT_CRB_1Ktest_16ULA_K2_min10p3_min7p6_0dB_Snapshots_20to1000.mat');
 load(File);
 % Load the CNN results   
 filename = fullfile('../../Result/data/EX3',...
