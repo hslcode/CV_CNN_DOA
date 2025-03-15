@@ -7,7 +7,7 @@ A novel DOA estimation method based on deep complex-valued networks with sparse 
 To generalize to different hardware platforms and power levels, we strongly recommend power-normalizing the covariance matrix before model training and inference, using the following formula:
 
 #### Mathematical Definition
-Given covariance matrix $\hat{R} \in \mathbb{C}^{Batch \times M \times M}$ :  
+Given sampling covariance matrix (SCM) $\hat{R} \in \mathbb{C}^{Batch \times M \times M}$ :  
 ```math
 \hat{R}_{\text{normalized}} = \frac{\hat{R}}{\max\left(\text{diag}(\hat{R})\right) + \epsilon}
 ```
